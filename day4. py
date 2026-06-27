@@ -1,0 +1,6 @@
+# Day 4 - Dictionaries
+student = {"name": "Adeleye_Isaac", "score": 85}
+if student["score"] >= 70:
+    print(f"{student['name']} passed")
+else:
+    print(f"{student['name']} failed")
