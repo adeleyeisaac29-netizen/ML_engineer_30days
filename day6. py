@@ -1,0 +1,6 @@
+# Day 6 - List Comprehension
+nums = [1, 2, 3, 4, 5]
+squares = [x**2 for x in nums]
+evens = list(map(lambda x: x*2, nums))
+print(squares)
+print(evens)
