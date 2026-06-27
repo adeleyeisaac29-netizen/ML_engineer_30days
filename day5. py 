@@ -1,0 +1,7 @@
+# Day 5 - Files
+try:
+    with open("note.txt", "w") as f:
+        f.write("Day 5 ML Engineer")
+    print("File saved")
+except Exception as e:
+    print(e)
