@@ -1,0 +1,9 @@
+# Day 7 - Classes and Objects
+class Student:
+    def __init__(self, name):
+        self.name = name
+    def greet(self):
+        print(f"Hi, I'm {self.name}")
+
+s1 = Student("Adeleye_Isaac")
+s1.greet()
