@@ -1,0 +1,4 @@
+# Day 1 - Variables and Print
+name = "Adeleye_Isaac"
+age = 14
+print(f"Hello, I'm {name} and I'm {age} years old")
